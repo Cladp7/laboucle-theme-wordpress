@@ -1,0 +1,142 @@
+/*
+Theme Name: La Boucle
+Author: Clarisse
+Description: Thème du mini-site La Boucle.
+Version: 1.0
+*/
+
+/* Général */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #222222;
+    background: #f6f6f7;
+    line-height: 1.6;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+a {
+    color: #c6343a;
+    text-decoration: none;
+}
+
+/* En-tête du site */
+.site-header {
+    text-align: center;
+    padding: 30px;
+    background: #ffffff;
+    border-bottom: 1px solid #dddddd;
+}
+
+.site-title {
+    font-size: 40px;
+    font-weight: bold;
+    color: #222222;
+}
+
+.site-desc {
+    color: #777777;
+}
+
+/* Menus (header + footer) */
+.site-header nav ul,
+.site-footer nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 15px 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+/* Formulaire de recherche */
+.search-form {
+    margin-top: 15px;
+}
+
+/* Conteneur central */
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 30px 15px;
+}
+
+.page-title {
+    font-size: 30px;
+}
+
+/* Cartes d'articles */
+.article-card {
+    background: #ffffff;
+    border: 1px solid #dddddd;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.article-card h2 {
+    font-size: 24px;
+}
+
+.article-card h2 a {
+    color: #222222;
+}
+
+/* Catégories */
+.post-categories {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0;
+}
+
+.post-categories a {
+    display: inline-block;
+    font-size: 13px;
+    padding: 3px 10px;
+    margin-right: 5px;
+    border: 1px solid #cccccc;
+    border-radius: 20px;
+    color: #777777;
+}
+
+/* Bouton "Lire la suite" */
+.btn {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 8px 16px;
+    background: #c6343a;
+    color: #ffffff;
+    border-radius: 6px;
+}
+
+/* Article seul (single) */
+.single-article h1 {
+    font-size: 34px;
+}
+
+.meta {
+    color: #777777;
+}
+
+.single-article img {
+    border-radius: 10px;
+    margin: 15px 0;
+}
+
+/* Pied de page */
+.site-footer {
+    text-align: center;
+    padding: 30px;
+    color: #777777;
+    background: #ffffff;
+    border-top: 1px solid #dddddd;
+}
